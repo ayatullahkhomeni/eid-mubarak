@@ -1,20 +1,27 @@
 .head-line {
     color: blue;
-    font-size: 40px;
+    font-size: 25px;
     background-color: fuchsia;
-    border: 10px;
-    width: 50%;
+    width: 30%;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
     margin: 0% 35%;
 }
 
-.eid,
-.eb {
+img {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0% 35%;
+    height: 30%;
+    width: 30%;
+}
+
+.eb,
+h3 {
     text-align: center;
     color: darkred;
-    background-color: darkturquoise;
+    background-color: rosybrown;
     font-weight: 700;
     border-radius: 5px;
     margin: 0% 35%;
@@ -27,11 +34,24 @@
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    margin-left: 45%;
+    margin-left: 35%;
 }
 
-h3 {
+.eid {
     text-align: center;
-    position: 40%;
-    background-color: chartreuse;
+    color: darkred;
+    background-color: darkturquoise;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0% 35%;
+}
+
+.head-line,
+img,
+.eb,
+h3,
+.link-button,
+.eid {
+    margin: 0% 35%;
+    padding: 20px;
 }
