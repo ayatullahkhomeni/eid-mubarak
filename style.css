@@ -1,16 +1,23 @@
 .head-line {
     color: blue;
-    font-size: 100px;
-    background-color: bisque;
+    font-size: 40px;
+    background-color: fuchsia;
     border: 10px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     padding: 10px;
+    border-radius: 5px;
+    margin: 0% 35%;
 }
 
-.eid {
+.eid,
+.eb {
     text-align: center;
     color: darkred;
+    background-color: darkturquoise;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0% 35%;
 }
 
 .link-button {
